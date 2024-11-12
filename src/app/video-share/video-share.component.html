@@ -1,0 +1,14 @@
+<div class="video-container">
+    <video width="320" height="240" controls>
+      <source src="path-to-your-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <button class="share-btn" (click)="toggleShareIcons()">Share</button>
+    <div class="share-icons" *ngIf="showShareIcons">
+      <button (click)="shareOnLinkedIn()"><i class="fab fa-linkedin"></i></button>
+      <button (click)="shareOnWhatsApp()"><i class="fab fa-whatsapp"></i></button>
+      <button (click)="shareOnInstagram()"><i class="fab fa-instagram"></i></button>
+      <button (click)="shareOnTwitter()"><i class="fab fa-twitter"></i></button>
+    </div>
+  </div>
+  

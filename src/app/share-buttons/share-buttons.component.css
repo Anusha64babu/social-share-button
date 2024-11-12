@@ -1,0 +1,27 @@
+.share-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #0073b1; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:nth-child(2) { background-color: #25D366; }
+  button:nth-child(3) { background-color: #E1306C; }
+  button:nth-child(4) { background-color: #1DA1F2; } 
+  

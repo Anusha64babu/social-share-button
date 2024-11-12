@@ -1,0 +1,42 @@
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .share-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .share-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .share-icons {
+    margin-top: 10px;
+  }
+  
+  .share-icons button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .share-icons button i {
+    color: #0073b1; 
+  }
+  
+  .share-icons button:hover i {
+    opacity: 0.7;
+  }
+  .share-icons button:nth-child(2) i { color: #25D366; } 
+  .share-icons button:nth-child(3) i { color: #E1306C; } 
+  .share-icons button:nth-child(4) i { color: #1DA1F2; } 
+  

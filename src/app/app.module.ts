@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShareButtonsComponent } from './share-buttons/share-buttons.component';
+import { VideoShareComponent } from './video-share/video-share.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShareButtonsComponent,
+    VideoShareComponent
   ],
   imports: [
     BrowserModule,
